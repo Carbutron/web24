@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta {
+    color: rgb(30, 255, 0);
+    font-size: 28px;
+    font-weight: bold;
+}
+.atributo {
+    color: rgb(128, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+}
+#enlaces a {
+    color: rgb(0, 247, 255);
+    text-decoration: underline;
+    font-size: 24px;
+}
+.up-arrow {
+    width: 30px;
+    height: 30px;
+}
+#listas .customdes li {
+    list-style-type: disc;
+}
+#listas .customdes li li {
+    list-style-type: square;
+}
+#listas .customdes li li li{
+    list-style-type: circle;
+}
+#listas .customord li {
+    list-style-type: upper-alpha;
+}
+#listas .customord li li {
+    list-style-type: upper-roman;
+}
+#listas .customord li li li{
+    list-style-type: lower-greek;
+}
+#listas .customico li li {
+    list-style-image: url("../img/corazon.png");
+}
+#listas .customico li li li{
+    list-style-image: none;
+    list-style-type: circle;
+}
+#listas .listadefcustom  {
+    width: 30%;
+}
+#listas .listadefcustom dt {
+    display: inline;
+    background-color: rgb(229, 255, 127);
+    color: rgb(15, 36, 24);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tfc th  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.striped tr:nth-child(odd) {
+    background-color: rgb(255, 7, 214);
+}
+.striped tr:nth-child(even){
+    background-color: rgb(229, 255, 0);
+}
+.horario {
+    text-align: center;
+    margin: 0 auto;
+}
+.horario, th,td {
+    text-align: center;
+    border-collapse: collapse;
+}
+.BDD {
+    background-color: green;
+}
+.SASP {
+    background-color: rgb(103, 103, 255);
+}
+.IPE {
+    background-color: pink;
+}
+.PROG {
+    background-color: rgb(0, 0, 255);
+}
+.SISI {
+    background-color: rgba(1, 134, 1, 0.600);
+}
+.DASP {
+    background-color: yellow;
+}
+.IPCG {
+    background-color: orange;
+}
+.LMSG {
+    background-color: rgba(255, 255, 0, 0.637);
+}
+.ENDE {
+    background-color: purple;
+}
+.PIMD {
+    background-color: rgba(255, 195, 83, 0.562);
+}
+.formlogin {
+    float: left;
+    width: 50%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb {
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(127, 136, 255);
+}
+.formhtml5 legend {
+    background-color: rgb(6, 6, 71);
+    color: white;
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(255, 102, 0);
+    color: rgb(243, 191, 191);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-red {
+    background-color: rgb(218, 19, 182);
+    color: black;
+}
+.btn-green {
+    background-color: rgb(4, 44, 41);
+    color: rgb(245, 174, 174);
+    cursor: pointer;
+}
+.galeria {
+    text-align: center;
+}
+
+.photo {
+    width: 33.3%;
+    float: left;
+}
+.photo img {
+    padding: 4px;
+}
+.cb {
+    clear: both;
+}
+.video {
+    text-align: center;
+}

@@ -350,16 +350,14 @@ h1 {
     text-align: center;
 }
 
-.photo {
-    width: 33.3%;
-    float: left;
-}
-.photo img {
-    padding: 4px;
-}
+.photos {
+    width: 300px;
+    height: 300px;  
+} 
 .cb {
     clear: both;
 }
+
 .video {
     text-align: center;
 }

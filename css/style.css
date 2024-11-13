@@ -3,7 +3,7 @@ body {
 }
 
 #multimedia, #parrafos, #tablas, #formularios, #Enlaces, #listas {
-    background-image: url(img/pexels-photo-1166644.webp);
+    background-image: url(img/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

@@ -2,9 +2,17 @@ body {
     margin: 0;
 }
 
+#multimedia, #parrafos, #tablas, #formularios, #Enlaces, #listas {
+    background-image: url(/img/pexels-photo-1166644.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: black;
 }
 
 /* For desktop: */
@@ -262,48 +270,47 @@ h1 {
 }
 
 .striped tr:nth-child(odd) {
-    background-color: rgb(255, 7, 214);
+    background-color: rgb(227, 101, 187);
 }
 .striped tr:nth-child(even){
     background-color: rgb(229, 255, 0);
 }
 .horario {
-    text-align: center;
     margin: 0 auto;
+    width: 80%;
 }
-.horario, th,td {
+.th,td {
     text-align: center;
-    border-collapse: collapse;
 }
 .BDD {
-    background-color: green;
+    background-color: rgb(90, 120, 86);
 }
 .SASP {
-    background-color: rgb(103, 103, 255);
+    background-color: rgb(86, 118, 115);
 }
 .IPE {
-    background-color: pink;
+    background-color: rgb(196, 115, 104);
 }
 .PROG {
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(97, 114, 130);
 }
 .SISI {
     background-color: rgba(1, 134, 1, 0.600);
 }
 .DASP {
-    background-color: yellow;
+    background-color: rgb(224, 186, 60);
 }
 .IPCG {
-    background-color: orange;
+    background-color: rgb(212, 125, 70);
 }
 .LMSG {
     background-color: rgba(255, 255, 0, 0.637);
 }
 .ENDE {
-    background-color: purple;
+    background-color: rgb(135, 100, 106);
 }
 .PIMD {
-    background-color: rgba(255, 195, 83, 0.562);
+    background-color: rgb(225, 164, 110);
 }
 .formlogin {
     float: left;
@@ -313,13 +320,14 @@ h1 {
     float: right;
     width: 50%;
 }
-.cb {
-    clear: both;
-}
+
 .formhtml5 {
     width: 50%;
     margin: 0 auto;
     background-color: rgb(127, 136, 255);
+}
+.cb {
+    clear: both;
 }
 .formhtml5 legend {
     background-color: rgb(6, 6, 71);
@@ -349,15 +357,32 @@ h1 {
 .galeria {
     text-align: center;
 }
+.images {
+    margin-left: 50px;
+}
 
-.photos {
-    width: 300px;
-    height: 300px;  
+.pic {
+float: left;
+width: 33.3%;
+padding: 4px;  
+margin: 0 auto;
 } 
+
 .cb {
     clear: both;
 }
-
-.video {
+.video-title {
     text-align: center;
+}
+.vid {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.audio-title {
+    text-align: center;
+}
+.audio {
+     margin: 0 auto;
+    display: block;
 }
